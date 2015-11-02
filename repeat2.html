@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+	<div ng-app = "" ng-init = "names = [{dist:'tangail',color:'red',oop:'yes'},
+										  {dist:'sss',color:'black',oop:'no'}]">
+										  
+										  <ul>
+											<li ng-repeat = "x in names">
+												{{x.dist + ", " + x.color + ", " + x.oop}}
+											</li>
+										  </ul>
+	
+	</div>
+</body>
+</html>
